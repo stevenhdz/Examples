@@ -4,13 +4,14 @@ public class Program
 {
 	public static void Main()
 	{
-		 	double n1=0;
+	    double n1=0;
             double n2=0;
             double n3=0; 
             double n4=0; 
             double n5=0; 
             double n6=0; 
             double Prom=0;
+	    double total=0;
             
              Console.WriteLine("Valor nota 1");
             n1 = Double.Parse(Console.ReadLine());
