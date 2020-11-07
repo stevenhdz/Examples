@@ -4,29 +4,29 @@ public class Program
 {
 	public static void Main()
 	{
-	    double n1=0;
-            double n2=0;
-            double n3=0; 
-            double n4=0; 
-            double n5=0; 
-            double n6=0; 
-            double Prom=0;
-	    double total=0;
-            
+		double n1=0, n2=0, n3=0, n4=0, n5=0, n6=0, total=0, suma=0;
+		
              Console.WriteLine("Valor nota 1");
             n1 = Double.Parse(Console.ReadLine());
+		
              Console.WriteLine("Valor nota 2");
             n2 = Double.Parse(Console.ReadLine());
+		
              Console.WriteLine("Valor nota 3");
             n3 = Double.Parse(Console.ReadLine());
+		
              Console.WriteLine("Valor nota 4");
             n4 = Double.Parse(Console.ReadLine());
+		
              Console.WriteLine("Valor nota 5");
             n5 = Double.Parse(Console.ReadLine());
+		
              Console.WriteLine("Valor nota 6");
             n6 = Double.Parse(Console.ReadLine());
             
-                Prom = (n1+n2+n3+n4+n5+n6)/6;
-             Console.WriteLine(" La Nota definitiva de la materia es " + Prom);
+			suma = n1+n2+n3+n4+n5+n6;
+                total = suma/6;
+		
+             Console.WriteLine(" La Nota definitiva de la materia es " + total);
 	}
 }
